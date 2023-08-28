@@ -5,7 +5,6 @@
 
 //3. Declare variables
 
-
 //4. Connect to MongoDB - add connection string to .env file
 
 //5. Add .env file to gitignore
