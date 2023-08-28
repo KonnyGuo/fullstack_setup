@@ -5,7 +5,6 @@
 
 //3. Declare variables
 
-//7. Create gitignore file and push to github
 
 //4. Connect to MongoDB - add connection string to .env file
 
@@ -17,10 +16,18 @@
 
 //6. Set middleware
 
+     What is json? Objects. app.use(express.json()) helps express parse json to get what it needs from it 
+     app.use('cors') helps remove the cors error (cross origin request)
+
+//7. Create gitignore file and push to github
+
 //8. Create Public and Views folders - add main.js and style.css to Public and index.ejs to Views
 
 //9. From root, init local git repo and commit
 
 //10. Render set up change in package.json
-      scripts: "start node server.js"
+      scripts: "start node server.js", "dev": "nodemon server.js"
       engine: {"node: "" }
+
+      npm start (to use start script)
+      npm run dev (to use nodemon)
