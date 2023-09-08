@@ -25,7 +25,7 @@
 //9. From root, init local git repo and commit
 
 //10. Render set up change in package.json
-      scripts: "start node server.js", "dev": "nodemon server.js"
+      scripts: "start": node server.js", "dev": "nodemon server.js"
       engine: {"node: "" }
 
       npm start (to use start script)
