@@ -30,3 +30,17 @@
 
       npm start (to use start script)
       npm run dev (to use nodemon)
+
+npm i express mongoose connect-mongo express-session express-handlebars dotenv method-override moment morgan passport passport-google-oauth20 
+npm i -D nodemon cross-env
+
+connect-mongo to store session in db so when server reset not logged out
+express-session for sessions and cookies
+express-handlebars for templating language (ejs works too)
+method-override makes put and delete request from template language (defualt only post and get)
+moment for dates
+morgan for logging
+passport for authen
+passport-google-oauth20 for google authen
+cross-env global variable for node environment
+
